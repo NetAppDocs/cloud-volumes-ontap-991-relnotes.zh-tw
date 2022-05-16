@@ -763,4 +763,8 @@
   <block id="fed5c8246ca485a22abc959eb3025a8c" category="admonition">免費試用開始、剩餘7天、以及剩餘1天時、您將會在Cloud Manager中收到通知。例如：<block ref="4c1747a7ecb096dffecedae45404dae8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="451e7fc5df78c19113abdb3f6a0dc54e" category="paragraph">瞭解如何開始使用容量型授權：</block>
   <block id="fdb736034a6801c8a5010a511211a4a7" category="paragraph">瞭解如何開始使用Keystone Flex訂閱：</block>
+  <block id="e0b13ea645feb48ac220b0833d3df83a" category="section-title">9.9.1 P8（2022年5月15日）</block>
+  <block id="4c0101d6e580cc73498085272f84779c" category="paragraph">如果Cloud Volumes ONTAP 您有執行3.9.13版或更新版本的Connector、Microsoft Azure現在可提供9.9.1 P8修補程式以供使用。Cloud Manager會提示您將現有系統升級至此修補程式版本。</block>
+  <block id="a5757ef07045a814bda504c5b48177c6" category="inline-link">檢視P8修補程式中修正的錯誤清單</block>
+  <block id="25d11917417ee6320483ef20f056b14c" category="paragraph"><block ref="99e171e9eff5188da0e63d2b7cd3c805" category="inline-link-rx"></block> （需要NetApp支援網站登入）。</block>
 </blocks>

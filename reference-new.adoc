@@ -20,6 +20,14 @@ summary: 包含多項新功能與增強功能。Cloud Volumes ONTAP
 
 
 
+== 9.9.1 P8（2022年5月15日）
+
+如果Cloud Volumes ONTAP 您有執行3.9.13版或更新版本的Connector、Microsoft Azure現在可提供9.9.1 P8修補程式以供使用。Cloud Manager會提示您將現有系統升級至此修補程式版本。
+
+https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.9.1P8["檢視P8修補程式中修正的錯誤清單"^] （需要NetApp支援網站登入）。
+
+
+
 == 9.9.1 P7（2022年2月21日）
 
 如果Cloud Volumes ONTAP 您有執行3.9.15版或更新版本的Connector、Microsoft Azure現在可提供9.9.1 P7修補程式以供使用。Cloud Manager會提示您將現有系統升級至此修補程式版本。
