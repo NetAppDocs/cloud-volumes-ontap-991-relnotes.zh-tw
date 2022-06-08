@@ -711,7 +711,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-05-03 10:12:38 +0000">05/03/2022</time>
+    <time datetime="2022-06-08 22:05:36 +0000">06/08/2022</time>
     
   
 
@@ -959,6 +959,9 @@
 <p>這種VM類型包括本機NVMe儲存設備、Cloud Volumes ONTAP 這些儲存設備以_Flash Cache的形式使用。Flash Cache 可透過即時智慧快取來加速資料存取、快取最近讀取的使用者資料和 NetApp 中繼資料。它適用於隨機讀取密集的工作負載、包括資料庫、電子郵件和檔案服務。所有磁碟區都必須停用壓縮、才能充分發揮 Flash Cache 效能的改善效益。 <a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-flash-cache.html" target="_blank" rel="noopener">"深入瞭解"</a>。</p>
 </li>
 <li>
+<p>使用單一節點系統時、所有執行個體類型都支援高速寫入。您可以在部署期間或之後的任何時間、從Cloud Manager啟用高速寫入速度。 <a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-write-speed.html" target="_blank" rel="noopener">"深入瞭解如何選擇寫入速度"</a>。</p>
+</li>
+<li>
 <p>使用SSD時可啟用增強的寫入效能。</p>
 </li>
 <li>
@@ -1029,7 +1032,7 @@
 <p>E48s_v3 <sup>1</sup></p>
 </li>
 <li>
-<p>E80ids_v4 <sup>2</sup></p>
+<p>E80ids_v4 <sup>1、1</sup></p>
 </li>
 </ul>
 </div></div></td>
@@ -1061,7 +1064,7 @@
 <p>E48s_v3 <sup>1</sup></p>
 </li>
 <li>
-<p>E80ids_v4 <sup>2</sup></p>
+<p>E80ids_v4 <sup>1、1</sup></p>
 </li>
 </ul>
 </div></div></td>
@@ -1089,7 +1092,7 @@
 <p>E48s_v3 <sup>1</sup></p>
 </li>
 <li>
-<p>E80ids_v4 <sup>2</sup></p>
+<p>E80ids_v4 <sup>1、1</sup></p>
 </li>
 </ul>
 </div></div></td>
@@ -1117,7 +1120,7 @@
 <p>E48s_v3 <sup>1</sup></p>
 </li>
 <li>
-<p>E80ids_v4 <sup>2</sup></p>
+<p>E80ids_v4 <sup>1、1</sup></p>
 </li>
 </ul>
 </div></div></td>
@@ -1134,7 +1137,7 @@
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>使用HA配對時、支援這些VM類型的高速寫入速度。Cloud Volumes ONTAP使用單一節點系統時、所有執行個體類型都支援高速寫入。 <a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-write-speed.html" target="_blank" rel="noopener">"深入瞭解如何選擇寫入速度"</a>。</p>
+<p>使用HA配對時、支援這些VM類型的高速寫入速度。Cloud Volumes ONTAP您可以在部署期間或之後的任何時間、從Cloud Manager啟用高速寫入速度。 <a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-write-speed.html" target="_blank" rel="noopener">"深入瞭解如何選擇寫入速度"</a>。</p>
 </li>
 <li>
 <p>建議僅在需要Azure維護控管時才使用此VM。由於價格較高、因此不建議用於任何其他使用案例。</p>
