@@ -291,14 +291,11 @@
   <block id="7d11aba6c40237104a266be93dc3a00f" category="cell">E64is_v3</block>
   <block id="6b9d51616a5f0637dd2fb237d868c037" category="cell">E80ids_v4</block>
   <block id="84dbd7aba83fa6e04c6f7c96a1be85f2" category="section-title">具有節點型授權的單一節點</block>
-  <block id="9a14c9013ea629276a361bd58d8e1f28" category="admonition">對於某些VM類型、您需要數個BYOL授權、才能達到下列系統容量上限。例如、您需要6個BYOL授權、才能使用DS5_v2達到1.95 PIB。</block>
   <block id="aaa9a5ed21c4e4c107aab47a353049bc" category="cell">單一授權即可達到最大系統容量</block>
   <block id="cabc996760a00c42a2b15b388054d050" category="cell">最多可容納多個授權的系統容量</block>
   <block id="bb49543449782c0f1b87b3ef8f49a6be" category="cell">*單獨磁碟*</block>
   <block id="e3185eb0708df4883935910ebf26f8db" category="cell">*磁碟+資料分層*</block>
-  <block id="7b5a749f9960a67a5125083fa7cf600b" category="cell">928 TiB</block>
   <block id="f94f9afeacfc431720c782db2e1d8809" category="cell">每個授權使用368TiB</block>
-  <block id="b08a88e26e7d3629b4e76b499b53a5be" category="cell">1.95 PIB</block>
   <block id="e4da3b7fbbce2345d7772b0674a318d5" category="cell">5.</block>
   <block id="82c5a657ae8662e2146ad882dc2b2d0b" category="cell">160 TiB</block>
   <block id="c51ce410c124a10e0db5e4b97fc2af39" category="cell">13.</block>
@@ -679,4 +676,5 @@
   <block id="30af1a6878bac3a7aaed5d0e64e7b511" category="paragraph">提供不同的授權選項、讓您選擇符合需求的消費模式。Cloud Volumes ONTAP</block>
   <block id="37439fa615a442ec183c1c602f9755f1" category="paragraph">容量型授權的形式為_package_。當您部署Cloud Volumes ONTAP 一套解決方案時、您可以根據業務需求、從多個授權套件中進行選擇。</block>
   <block id="f3b3e9858be5dbfaf6c39891db3263a2" category="paragraph"><block ref="f3b3e9858be5dbfaf6c39891db3263a2" category="inline-link-rx"></block></block>
+  <block id="33f66f5b18b24875dca7a81c8f84c5b9" category="cell">896 TiB</block>
 </blocks>
