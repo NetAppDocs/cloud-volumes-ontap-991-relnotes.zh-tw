@@ -38,12 +38,6 @@ Standard_L8s_v2 VM類型包含本機NVMe儲存設備、Cloud Volumes ONTAP 此�
 * 不支援NFSv4。支援 NFSv3 。
 * 某些地區不支援HA配對。
 +
-https://cloud.netapp.com/cloud-volumes-global-regions["請參閱支援的 Azure 地區清單"^]。
+https://cloud.netapp.com/cloud-volumes-global-regions["請參閱支援的 Azure 地區清單"^]
 
 
-
-
-
-== CSP合作夥伴無法使用「隨用隨付」
-
-如果您是Microsoft Cloud Solution Provider（CSP）合作夥伴、則無法部署Cloud Volumes ONTAP SfExplore、Standard或Premium、因為CSP合作夥伴無法使用隨用付費訂閱。您必須購買授權並部署Cloud Volumes ONTAP BYOL。

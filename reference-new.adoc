@@ -109,9 +109,9 @@ link:reference-configs-aws.html["深入瞭解此授權選項。"]
 
 除了所介紹的功能之外 https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508["部分9.9.1 ONTAP"^]、Cloud Volumes ONTAP 本版的《》包含下列內容：
 
-*  S3 support in Azure
-*  performance in AWS with high write speed
-*  boot disk in AWS
+* <<支援Azure中的S3 ONTAP>>
+* <<以高速寫入速度提升AWS效能>>
+* <<AWS中的IO2開機磁碟>>
 
 
 

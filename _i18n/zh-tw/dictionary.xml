@@ -227,7 +227,6 @@
   <block id="a5a1e4029969159a5f8fdeddd3fb7e1b" category="paragraph">不支援所有其他位置、版本、組態和授權。</block>
   <block id="38220a2514a2fcb218be440c035b4175" category="section-title">支援保留和隨需VM執行個體Cloud Volumes ONTAP</block>
   <block id="8ce602039d8c7d53c95e1f62b1d83ef0" category="paragraph">可在雲端供應商的保留或隨需VM執行個體上執行。Cloud Volumes ONTAP不支援其他類型的VM執行個體。</block>
-  <block id="207289e471510410b8d11da3001f65d7" category="section-title">不應使用自動應用程式資源管理解決方案</block>
   <block id="f9492a63b4f60679d003c1e9c0ebbb18" category="paragraph">自動應用程式資源管理解決方案不應管理Cloud Volumes ONTAP 功能完善的系統。否則可能會變更不受支援的組態。例如、解決方案Cloud Volumes ONTAP 可能會變更為不受支援的VM執行個體類型。</block>
   <block id="1d7a5501cfb31aff808abb63ef9085c2" category="section-title">軟體更新必須由Cloud Manager完成</block>
   <block id="93e3c3d0ea43d600b3c3cd4548ea3987" category="paragraph">必須從 Cloud Manager 完成升級。 Cloud Volumes ONTAP您不應 Cloud Volumes ONTAP 使用 System Manager 或 CLI 來升級功能。這樣做可能會影響系統穩定性。</block>
@@ -261,7 +260,6 @@
   <block id="b5050f17750ec84285bec219771841c4" category="section-title">Google Private Service Connect限制</block>
   <block id="9fb3c7aadbb59d428d3c01efb5689f4b" category="inline-link">Google Private Service Connect</block>
   <block id="7af98a0e0cd62cd4ddc103341d51fda2" category="inline-link">Cloud Manager API端點</block>
-  <block id="948671a13623cbbc9f65ca511ed257a3" category="paragraph">如果您善用<block ref="e066b15eeebd4e6d571fd7dd588f94f7" category="inline-link-rx"></block> 在您部署Cloud Volumes ONTAP 的VPC中、您需要實作DNS記錄、將流量轉送至所需的<block ref="acf94572d3bfe8bd5bc5166d196eeacc" category="inline-link-rx"></block>。</block>
   <block id="406156e49006d700786c581646d94504" category="paragraph">Private Service Connect目前不支援將Cloud Volumes ONTAP 資料從功能區分層至Google Cloud Storage儲存庫。</block>
   <block id="6a8a2e92f318dbd4f6a8e47b03350d4d" category="summary">在Azure中、由於儲存組態限制、因此可提供可靠的作業。Cloud Volumes ONTAP為獲得最佳效能、請勿將系統設定為最大值。</block>
   <block id="e622ddac1a96836929babb5b993749ba" category="doc">Azure的儲存限制</block>
@@ -527,9 +525,6 @@
   <block id="2d62580dcf116f839bad7027ac992878" category="list-text">不支援NFSv4。支援 NFSv3 。</block>
   <block id="b1969fa9ebe4dd2003618adb77082978" category="list-text">某些地區不支援HA配對。</block>
   <block id="1538d38eb23a96781db500ec7bd30195" category="inline-link">請參閱支援的 Azure 地區清單</block>
-  <block id="f5b8e6c4c4b082cf610f078e361a727f" category="paragraph"><block ref="1f129df010c594cb0d37bd30745a3820" category="inline-link-rx"></block>。</block>
-  <block id="e4f5b6f59db7bfa0e08c02262ddbd654" category="section-title">CSP合作夥伴無法使用「隨用隨付」</block>
-  <block id="f2ff5834d93c258f0fc4ad6cf6a17942" category="paragraph">如果您是Microsoft Cloud Solution Provider（CSP）合作夥伴、則無法部署Cloud Volumes ONTAP SfExplore、Standard或Premium、因為CSP合作夥伴無法使用隨用付費訂閱。您必須購買授權並部署Cloud Volumes ONTAP BYOL。</block>
   <block id="9141535b8d150812f3cded29f090ad8c" category="summary">Google Cloud支援多Cloud Volumes ONTAP 種支援的支援功能。</block>
   <block id="9e931b1cee40a7346d1f06dd6a75ba8e" category="doc">Google Cloud支援的組態</block>
   <block id="0c11951245f2ef7895ea0fc514386d6e" category="paragraph">在Google Cloud Platform中、可將其作為單一節點系統、並以高可用度（HA）節點配對的形式提供、以提供容錯能力和不中斷營運。Cloud Volumes ONTAP</block>
@@ -672,4 +667,11 @@
   <block id="09ea0908fbfc4cde85bf416e35dc55c8" category="inline-link-macro">NetApp支援</block>
   <block id="0b55c70d5652d8fe1f5ddc75633eaa95" category="paragraph">請參閱 <block ref="0bcfd67fb2b966e3378fbf640ee81a22" category="inline-link-macro-rx"></block> 以深入瞭解這些執行個體類型的終止可用度和支援。</block>
   <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有Cloud Manager文件</block>
+  <block id="2819feead2b07762a4465189ab8b2f52" category="paragraph-title">對於HA配對、每個節點或整個HA配對的授權容量限制是多少？</block>
+  <block id="7093c2c9844cf46dcd5d50c6d596d244" category="paragraph-title">對於HA配對、鏡射資料是否會根據授權容量限制計算？</block>
+  <block id="dbe94f36417009d827f76ccf107bd90c" category="section-title">不應使用自動應用程式資源管理解決方案</block>
+  <block id="2f9882645b2c32820ad085240bacb763" category="paragraph-title">對於HA、每個節點或整個HA配對的授權容量限制是多少？</block>
+  <block id="da934d10ecc6d50a861d9470630d4989" category="paragraph">如果您善用<block ref="e066b15eeebd4e6d571fd7dd588f94f7" category="inline-link-rx"></block> 在您部署Cloud Volumes ONTAP 的VPC中、您需要實作DNS記錄、將流量轉送至所需的<block ref="c291f5ab92cbab017e6f29ee8a0edb54" category="inline-link-rx"></block>。</block>
+  <block id="fc9a388cd18c69244f22554de6f0d544" category="paragraph-title">對於AWS中的HA系統、鏡射資料是否會根據容量限制計算？</block>
+  <block id="1f129df010c594cb0d37bd30745a3820" category="paragraph"><block ref="1f129df010c594cb0d37bd30745a3820" category="inline-link-rx"></block></block>
 </blocks>
