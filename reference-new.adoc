@@ -16,7 +16,7 @@ summary: 包含多項新功能與增強功能。Cloud Volumes ONTAP
 [role="lead"]
 包含多項新功能與增強功能。Cloud Volumes ONTAP
 
-最新版的BlueXP也會提供其他功能和增強功能。請參閱 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["BlueXP版本說明"^] 以取得詳細資料。
+最新版的BlueXP也會提供其他功能和增強功能。請參閱 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["BlueXP版本說明"^] 以取得詳細資料。
 
 
 
@@ -24,7 +24,7 @@ summary: 包含多項新功能與增強功能。Cloud Volumes ONTAP
 
 在AWS中Cloud Volumes ONTAP 、不再支援C4、M4和R4 EC2執行個體類型。如果現有系統執行的是c4、m4或r4執行個體類型、則必須變更為c5、m5或R5執行個體系列中的執行個體類型。
 
-link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-change-ec2-instance.html["瞭解如何變更EC2執行個體類型Cloud Volumes ONTAP 以供使用"^]。
+link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-change-ec2-instance.html["瞭解如何變更EC2執行個體類型Cloud Volumes ONTAP 以供使用"^]。
 
 請參閱 link:https://mysupport.netapp.com/info/communications/ECMLP2880231.html["NetApp支援"^] 以深入瞭解這些執行個體類型的終止可用度和支援。
 
@@ -91,7 +91,7 @@ link:concept-licensing.html["深入瞭解這些授權選項"]。
 
 
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["深入瞭解BlueXP的新功能"^]。
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["深入瞭解BlueXP的新功能"^]。
 
 
 
@@ -133,7 +133,7 @@ link:reference-configs-aws.html["深入瞭解此授權選項。"]
 
 === 以高速寫入速度提升AWS效能
 
-我們已提升Cloud Volumes ONTAP 了VMware的處理量效能 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-write-speed.html["高速寫入"^] 在支援的執行個體類型上啟用。
+我們已提升Cloud Volumes ONTAP 了VMware的處理量效能 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-write-speed.html["高速寫入"^] 在支援的執行個體類型上啟用。
 
 
 
@@ -154,7 +154,7 @@ BlueXP Connector必須執行3.9.6版或更新版本、才能部署新Cloud Volum
 * 必須從BlueXP完成升級。Cloud Volumes ONTAP您不應 Cloud Volumes ONTAP 使用 System Manager 或 CLI 來升級功能。這樣做可能會影響系統穩定性。
 * 您可以從Cloud Volumes ONTAP 9.9.0版本和9.8版本升級至版本的版本。BlueXP會提示您將現有Cloud Volumes ONTAP 的版本更新至9.9.1。
 +
-http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html["瞭解如何在BlueXP通知您時進行升級"^]。
+http://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-cloud.html["瞭解如何在BlueXP通知您時進行升級"^]。
 
 * 單一節點系統的升級可讓系統離線長達25分鐘、在此期間I/O會中斷。
 * 升級 HA 配對不中斷營運、而且 I/O 不中斷。在此不中斷營運的升級程序中、會同時升級每個節點、以繼續為用戶端提供 I/O 服務。

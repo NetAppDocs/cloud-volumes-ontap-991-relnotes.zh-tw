@@ -71,7 +71,7 @@ Google Cloud支援多Cloud Volumes ONTAP 種支援的支援功能。
 |===
 附註：
 
-. 磁碟限制可防止您單獨使用磁碟、達到最大系統容量限制。您可以達到容量上限 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html["將非作用中資料分層至物件儲存設備"^]。
+. 磁碟限制可防止您單獨使用磁碟、達到最大系統容量限制。您可以達到容量上限 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-data-tiering.html["將非作用中資料分層至物件儲存設備"^]。
 +
 link:reference-limits-gcp.html["深入瞭解Google Cloud的磁碟限制"]。
 

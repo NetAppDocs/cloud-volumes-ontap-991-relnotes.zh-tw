@@ -62,7 +62,7 @@ NetApp不支援超過系統容量限制。如果您達到授權容量上限、�
 
 
 
-NOTE: 您可以購買Cloud Volumes ONTAP 多個節點型授權給某個不支援的解決方案、以分配超過3668 TiB的容量。單一節點系統或 HA 配對可購買的授權數量不受限制。請注意、磁碟限制可能會讓您無法單獨使用磁碟來達到容量限制。您可以超越磁碟限制 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html["將非作用中資料分層至物件儲存設備"^]。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-node-licenses.html["瞭解如何將額外的系統授權新增Cloud Volumes ONTAP 至功能完善"^]。
+NOTE: 您可以購買Cloud Volumes ONTAP 多個節點型授權給某個不支援的解決方案、以分配超過3668 TiB的容量。單一節點系統或 HA 配對可購買的授權數量不受限制。請注意、磁碟限制可能會讓您無法單獨使用磁碟來達到容量限制。您可以超越磁碟限制 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-data-tiering.html["將非作用中資料分層至物件儲存設備"^]。 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-node-licenses.html["瞭解如何將額外的系統授權新增Cloud Volumes ONTAP 至功能完善"^]。
 
 
 
@@ -314,7 +314,7 @@ NOTE: 您可以購買Cloud Volumes ONTAP 多個節點型授權給某個不支援
 
 這些是測試的限制。雖然理論上可以設定額外的儲存VM、但不受支援。
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-managing-svms-azure.html["瞭解如何建立額外的儲存VM"^]。
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-managing-svms-azure.html["瞭解如何建立額外的儲存VM"^]。
 
 [cols="2*"]
 |===
