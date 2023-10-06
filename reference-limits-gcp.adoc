@@ -43,7 +43,7 @@ NetApp不支援超過系統容量限制。如果您達到授權容量上限、�
 | PAYGO Premium | 3668 TB 
 
 
-| 節點型授權 | 每個授權368TB 
+| 節點型授權 | 2 PIB （需要多個授權） 
 
 
 | 容量型授權 | 2 PIB 
@@ -86,7 +86,7 @@ NetApp不支援超過系統容量限制。如果您達到授權容量上限、�
 
 == Aggregate限制
 
-可將Google Cloud Platform磁碟分組為_aggregate。Cloud Volumes ONTAPAggregate可為磁碟區提供儲存設備。
+Cloud Volumes ONTAP 將 Google Cloud 磁碟分組為 _Aggregate 。Aggregate可為磁碟區提供儲存設備。
 
 [cols="2*"]
 |===
@@ -124,7 +124,9 @@ NetApp不支援超過系統容量限制。如果您達到授權容量上限、�
 | 邏輯儲存設備 | 參數 | 限制 
 
 
-| *儲存虛擬機器（SVM）* | 最大Cloud Volumes ONTAP 數目（HA配對或單一節點） | 一個資料服務SVM和一個目的地SVM、用於災難恢復。如果來源SVM發生中斷、您可以啟動目的地SVM進行資料存取。一部資料服務SVM橫跨Cloud Volumes ONTAP 整個整個作業系統（HA配對或單一節點）。 
+| *儲存虛擬機器（SVM）* | 最大Cloud Volumes ONTAP 數目（HA配對或單一節點） | 一個資料服務SVM和一個目的地SVM、用於災難恢復。如果來源 SVM 發生中斷、您可以啟動目的地 SVM 以進行資料存取。^1^
+
+單一資料服務SVM橫跨Cloud Volumes ONTAP 整個支援系統（HA配對或單一節點）。 
 
 
 .2+| *檔案* | 最大尺寸 | 16 TB 
