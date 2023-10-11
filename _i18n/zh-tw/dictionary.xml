@@ -672,7 +672,7 @@
   <block id="2dbd9a217bce4c7ba4ef467f57d6875c" category="list-text">您可以為 Cloud Volumes ONTAP BYOL 單一節點或 HA 配對系統購買多個節點型授權、以分配超過 368 TiB 的容量、最多可分配 2 PIB 的最大測試和支援系統容量限制。請注意、磁碟限制可能會讓您無法單獨使用磁碟來達到容量限制。您可以超越磁碟限制<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>。<block ref="ca37ce4dde5616ef242d545490c7e6ee" category="inline-link-rx"></block>。雖然 Cloud Volumes ONTAP 支援最多 2 個 PIB 的最大測試和支援系統容量、但超過 2 個 PIB 限制會導致系統組態不受支援。</block>
   <block id="de9d6749570efc87e63811b5947fc250" category="list-text">AWS Secret Cloud 和 Top Secret Cloud 地區支援從 Cloud Volumes ONTAP 9.12.1 開始購買多個節點型授權。</block>
   <block id="fbf9b099d9ec8deac1671938fd60e8f8" category="list-text">在 AWS 中、新的 Cloud Volumes ONTAP 部署不再支援 C4 、 M4 和 R4 EC2 執行個體類型。如果現有的系統執行於c4、m4或r4執行個體類型、則必須變更為c5、m5或R5執行個體系列中的執行個體類型。如果您無法變更執行個體類型、則必須在升級之前啟用增強的網路功能。</block>
-  <block id="e6567e962bca159fe4fe2d30a50079b1" category="inline-link-macro">瞭解如何使用 C4 、 M4 和 R4 EC2 執行個體類型的 AWS 進行升級 ^ 。</block>
-  <block id="25b6ed6b9d928059099051d0094805bd" category="paragraph"><block ref="14ef78ffd73c19fb64f58a6e03889f5c" category="inline-link-macro-rx"></block>
+  <block id="e1ec06a3bd4a559443a88f1cb6736c26" category="inline-link-macro">瞭解如何使用 C4 、 M4 和 R4 EC2 執行個體類型升級 AWS</block>
+  <block id="f295c0f45a8e22a4e4db9141680cce76" category="paragraph"><block ref="0fa12a627192b6cd097b12cd8088afe0" category="inline-link-macro-rx"></block>。
 <block ref="3f0e03f473a215943c109dc7746cdb60" category="inline-link-macro-rx"></block>。</block>
 </blocks>
