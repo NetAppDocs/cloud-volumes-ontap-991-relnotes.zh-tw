@@ -22,7 +22,6 @@
   <block id="d69dddad3d38a1500a52e7e599cb94df" category="paragraph">節點重新開機後、合作夥伴必須先同步資料、才能退回儲存設備。重新同步資料所需的時間取決於節點當機時用戶端寫入的資料量、以及恢復期間的資料寫入速度。</block>
   <block id="ac1c2f0887629ee768721c3b8cf91e3a" category="inline-link">瞭解儲存設備如何在Cloud Volumes ONTAP AWS上執行的一套功能不只是一套</block>
   <block id="3d699aa8349e33b8a9652ee305f6d287" category="summary">這些版本說明Cloud Volumes ONTAP 介紹有關更新功能、限制和已知問題的資訊。</block>
-  <block id="3038b42d926aec9bac53fd1e64d34154" category="doc">《》（英文）Cloud Volumes ONTAP</block>
   <block id="b889869e31827a33530d6fd02141fdb5" category="summary">Azure支援多Cloud Volumes ONTAP 種支援的支援功能。</block>
   <block id="e4b60b51b40a0907e38b3293d36780e6" category="doc">Azure支援的組態</block>
   <block id="c334038ed8a782403ae705a8de1f584b" category="section-title">依授權支援的組態</block>
@@ -570,7 +569,6 @@
   <block id="00795e3f043d0bab791590ffc0257204" category="list-text">升級 HA 配對不中斷營運、而且 I/O 不中斷。在此不中斷營運的升級程序中、會同時升級每個節點、以繼續為用戶端提供 I/O 服務。</block>
   <block id="2be187f608e3ad4af24d83ba1557f439" category="section-title">DS3_v2</block>
   <block id="5df049400fcb004a7798d336c199abfc" category="paragraph">從9.9.1版開始、DS3_v2 VM類型不再支援新的和現有Cloud Volumes ONTAP 的版本。如果此VM類型上有執行的現有系統、則在升級至9.9.1之前、您必須先變更VM類型。</block>
-  <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">版本資訊首頁</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="sidebar">AWS</block>
   <block id="3a580f142203677f1f0bc30898f63f53" category="sidebar">Azure</block>
@@ -595,7 +593,6 @@
   <block id="4e1b6146fa2cb1efc8bff10f1cf7e93c" category="list-text">E80ids_v4 ^1、1^</block>
   <block id="75b66e0b3cef735ea985bd79ab9601e2" category="cell">m5dn.4xlarge</block>
   <block id="bc503c45d950d94391e7685c6585b286" category="cell">m5dn.12xlarge</block>
-  <block id="30af1a6878bac3a7aaed5d0e64e7b511" category="paragraph">提供不同的授權選項、讓您選擇符合需求的消費模式。Cloud Volumes ONTAP</block>
   <block id="37439fa615a442ec183c1c602f9755f1" category="paragraph">容量型授權的形式為_package_。當您部署Cloud Volumes ONTAP 一套解決方案時、您可以根據業務需求、從多個授權套件中進行選擇。</block>
   <block id="33f66f5b18b24875dca7a81c8f84c5b9" category="cell">896 TiB</block>
   <block id="6614eabe1ab14f33107830de1efb584a" category="inline-link-macro">瞭解如何變更EC2執行個體類型Cloud Volumes ONTAP 以供使用</block>
@@ -672,4 +669,11 @@
   <block id="f295c0f45a8e22a4e4db9141680cce76" category="paragraph"><block ref="0fa12a627192b6cd097b12cd8088afe0" category="inline-link-macro-rx"></block>。
 <block ref="3f0e03f473a215943c109dc7746cdb60" category="inline-link-macro-rx"></block>。</block>
   <block id="b710bbf07a9ba1fa06f2e6f4e77a42db" category="paragraph">下表所示的頻寬與每個執行個體類型的AWS記錄限制相符。這些限制並不完全符合Cloud Volumes ONTAP 本公司所能提供的功能。如需預期效能、請<block ref="c23654021de34c23e6d408104aa3bf49" category="inline-link-rx"></block>參閱。</block>
+  <block id="6b32e99bddf60938239aabe092cb4c16" category="paragraph">有多種授權選項可供Cloud Volumes ONTAP 選擇。每個選項都能讓您選擇符合需求的消費模式。</block>
+  <block id="27fe4eb3edbaff8f250e2d51f7462681" category="inline-link">套件</block>
+  <block id="13dba612a4f942a80cbc82c5f678d57c" category="inline-link">更多關於容量型授權的資訊</block>
+  <block id="d994821c78c4538d3406d1baa52bc470" category="paragraph"><block ref="55cb08b70ffaa99b7ec18860c0180e14" category="inline-link-rx"></block> <block ref="7c9574dfed81dad53ed1c2acf3a874b5" category="inline-link-rx"></block></block>
+  <block id="c3647f40e3574e0e6f49e20c19135bfa" category="section-title">使用 Azure VM 延伸功能的限制</block>
+  <block id="9d167ed7d52d81da8d83590ec3b5a4af" category="paragraph">Cloud Volumes ONTAP 不支援部署中的 Azure 虛擬機器（ VM ）延伸功能和 VM 應用程式。在 Azure 中使用 Cloud Volumes ONTAP 搭配 VM 延伸功能會導致作業延遲， NetApp 建議您避免這些延遲。</block>
+  <block id="6c30a21d6f6cc42b1e2acaab3267705c" category="sidebar">Cloud Volumes ONTAP 9.9.1 版本資訊</block>
 </blocks>
