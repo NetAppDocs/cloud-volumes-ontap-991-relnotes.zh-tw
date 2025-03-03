@@ -201,4 +201,4 @@ AWS可在單一節點系統中使用、也可作為高可用度（HA）節點配
 
 == 支援的地區
 
-如需AWS區域支援、請參閱 https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volumes全球區域"^]。
+如需 AWS 區域支援 https://bluexp.netapp.com/cloud-volumes-global-regions["Cloud Volumes全球區域"^]、請參閱。

@@ -65,7 +65,6 @@
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link">深入瞭解</block>
   <block id="5063d3259058d90bbca06465957626d7" category="list-text">使用SSD時可啟用增強的寫入效能。</block>
   <block id="a3f8304ab1695053d71855c60f8abf63" category="inline-link">Cloud Volumes全球區域</block>
-  <block id="7c7627c6477255acb2239bd1be90f346" category="list-text">如需Azure地區支援、請參閱<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>。</block>
   <block id="e7089e61c962cfdae0de5b1d0748b6f2" category="list-text">可在雲端供應商的保留或隨需VM執行個體上執行。Cloud Volumes ONTAP不支援使用其他VM執行個體類型的解決方案。</block>
   <block id="b049fcbe8198301adc6bf87634a02845" category="section-title">HA 配對</block>
   <block id="2eacfdd792ca3ab121472c95654b43ec" category="paragraph">在Cloud Volumes ONTAP Azure中部署以HA配對形式部署的時、您可以從下列組態中進行選擇。</block>
@@ -196,7 +195,6 @@
   <block id="9de28fbf6817cd511eb799f9575b611d" category="list-text">當您選擇EC2執行個體類型時、可以指定它是共用執行個體或專屬執行個體。</block>
   <block id="afea36f2c9999a231c58b7e9dcf3b16e" category="list-text">可在保留或隨需EC2執行個體上執行。Cloud Volumes ONTAP不支援使用其他執行個體類型的解決方案。</block>
   <block id="8c4b25218155a1fdb972f4169855d04f" category="section-title">支援的地區</block>
-  <block id="4375839c669e051e5f2a8de11ba0c5d0" category="paragraph">如需AWS區域支援、請參閱<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>。</block>
   <block id="34515f1d88b10d0db0a78eba6c533394" category="summary">已知問題可識別可能導致您無法成功使用本產品版本的問題。</block>
   <block id="95dc0391ce7b396d7dd5622284e8fc3e" category="doc">已知問題</block>
   <block id="514c35ac615c3426962d39f27b71014b" category="paragraph">本版本Cloud Volumes ONTAP 中沒有任何特定於此版本的已知問題。</block>
@@ -503,7 +501,6 @@
   <block id="b4c4a8c75337dc28089aec3e79ae943c" category="list-text">PAYGO Explore不支援將資料分層至Google Cloud Storage。</block>
   <block id="46e869bc0f7a5fcdc09df010e1f48b25" category="list-text">全新Cloud Volumes ONTAP 的功能不再支援custom 4-16384機器類型。</block>
   <block id="0e3cb01898d99d0091e2a6f5a7572390" category="paragraph">如果您在此機器類型上執行現有的系統、您可以繼續使用、但我們建議您切換至n2-Standard-4機器類型。</block>
-  <block id="7093754c2bc2f151c7deef337385971a" category="list-text">如需Google Cloud Platform區域支援、請參閱<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>。</block>
   <block id="d29bff99e1f1d5529824e9017672d630" category="paragraph">在Google Cloud中、Aggregate最多可包含6個相同類型和大小的磁碟。支援下列磁碟大小：</block>
   <block id="dcfebc6fbca2c5316f55c914e6593d2d" category="list-text">100 GB</block>
   <block id="70f79b00cb7649d94d473895d6c540d2" category="list-text">1 TB</block>
@@ -603,7 +600,6 @@
   <block id="dbe94f36417009d827f76ccf107bd90c" category="section-title">不應使用自動應用程式資源管理解決方案</block>
   <block id="2f9882645b2c32820ad085240bacb763" category="paragraph-title">對於HA、每個節點或整個HA配對的授權容量限制是多少？</block>
   <block id="fc9a388cd18c69244f22554de6f0d544" category="paragraph-title">對於AWS中的HA系統、鏡射資料是否會根據容量限制計算？</block>
-  <block id="1f129df010c594cb0d37bd30745a3820" category="paragraph"><block ref="1f129df010c594cb0d37bd30745a3820" category="inline-link-rx"></block></block>
   <block id="30749b02bc62d931d770e6c719254e7b" category="list-text">BlueXP介面顯示標準和BYOL支援的其他機器類型：NA-HIGHEM-4。不過、這種機器類型並不適用於正式作業環境。我們僅針對特定的實驗室環境提供此功能。</block>
   <block id="406542fd6b2bb7b1e564e4a6d627bddb" category="paragraph">NetApp不支援超過系統容量限制。如果您達到授權容量上限、則BlueXP會顯示必要行動訊息、不再允許您新增其他磁碟。</block>
   <block id="59f715c959b1702bb88d03230a637982" category="paragraph">不、這不需要。AWS HA配對中的資料會在節點之間同步鏡射、以便在發生故障時提供資料。例如、如果您在節點A上購買8個TiB磁碟、則BlueXP也會在節點B上配置8個TiB磁碟、用於鏡射資料。雖然已配置16個TiB容量、但根據授權上限只計算8個TiB。</block>
@@ -676,4 +672,8 @@
   <block id="c3647f40e3574e0e6f49e20c19135bfa" category="section-title">使用 Azure VM 延伸功能的限制</block>
   <block id="9d167ed7d52d81da8d83590ec3b5a4af" category="paragraph">Cloud Volumes ONTAP 不支援部署中的 Azure 虛擬機器（ VM ）延伸功能和 VM 應用程式。在 Azure 中使用 Cloud Volumes ONTAP 搭配 VM 延伸功能會導致作業延遲， NetApp 建議您避免這些延遲。</block>
   <block id="6c30a21d6f6cc42b1e2acaab3267705c" category="sidebar">Cloud Volumes ONTAP 9.9.1 版本資訊</block>
+  <block id="0890aa708cef7529c2bd35cb7d2895df" category="paragraph">如需 AWS 區域支援<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>、請參閱。</block>
+  <block id="f0de068c81c765820aca0fa8fe017396" category="list-text">如需 Azure 區域支援<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>、請參閱。</block>
+  <block id="ef9be83cb59b0572a3581a6724316e48" category="list-text">如需 Google Cloud Platform 地區支援、請參閱<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>。</block>
+  <block id="26f113c6240bf0450440356676516cf1" category="paragraph"><block ref="26f113c6240bf0450440356676516cf1" category="inline-link-rx"></block></block>
 </blocks>
