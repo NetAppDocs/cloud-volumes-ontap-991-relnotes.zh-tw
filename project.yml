@@ -2,7 +2,6 @@
 settings:
   name: Cloud Volumes ONTAP
   downlevel: true
-  platform: cloud
   internal:
     pdf_enabled: true
   prod:
