@@ -10,8 +10,10 @@ settings:
   versions:
   - version-number: 9.9.1
     url: "/cloud-volumes-ontap-991-relnotes"
-  - version-number: 9.16.1
+  - version-number: 9.17.1
     url: "/cloud-volumes-ontap-relnotes"
+  - version-number: 9.16.1
+    url: "/cloud-volumes-ontap-9161-relnotes"
   - version-number: 9.15.1
     url: "/cloud-volumes-ontap-9151-relnotes"
   - version-number: 9.15.0
